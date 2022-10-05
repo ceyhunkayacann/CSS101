@@ -1,0 +1,144 @@
+/*
+
+
+*/
+body{
+    
+   /* background-image: url(https://i.pinimg.com/736x/33/eb/8c/33eb8cb3461bfce1b08cbb9575cee253.jpg); 
+     */
+     /* background-color: rgb(56, 50, 29); */
+   
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, black, rgba(80, 80, 60, 0.966));  
+    background-attachment: fixed;
+    text-align: justify;
+    }
+
+ 
+nav > ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right,black, rgba(255,0,0,0),black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+li{
+    display: inline;
+    float: left;
+    
+    /* padding: 2%; */
+    
+    
+   
+}
+
+li a {
+    display: block;
+    color: bisque;
+    opacity: 0.4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  li a:hover{
+    background-color: bisque;
+    color: black;
+    
+  }
+
+  .leftPic {
+    max-width: 140px;
+    height: auto;
+    float: left;
+    margin: 2px;
+    padding-right: 2%;
+    
+  }
+
+  .rightPic{
+    max-width: 140px;
+    height: auto;
+    float: right;
+    margin: 2px;
+    padding-left: 2%;
+  }
+
+  .hLeft {
+    text-align: right;
+  }
+
+
+
+  
+
+
+  
+.headers {
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+    background-image: linear-gradient(to right, black, rgba(255,0,0,0),black);
+    opacity: 0.4;
+    font-size: 48px;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 2%;
+  
+    
+}
+article {
+    font-family: 'Franklin Gothic Medium';
+    margin : 2%;
+    padding : 4%;
+    color:bisque;
+}
+
+.articlesRight{
+    
+  
+    opacity: .4;
+    background-image: linear-gradient(to right, rgba(255,0,0,0),black);
+    
+   
+    
+}
+
+.articlesLeft{
+    
+    opacity: .4;
+    background-image: linear-gradient(to left, rgba(255,0,0,0),black);
+    
+}
+
+.aboutMe {
+    font-family: 'Franklin Gothic Medium';
+    margin : 2%;
+    padding : 4%;
+    color:bisque;
+    opacity: .4;
+    background-image: linear-gradient(to right,black, rgba(255,0,0,0),black);
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.contactMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+}
+
